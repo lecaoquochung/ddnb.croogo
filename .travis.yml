@@ -7,17 +7,27 @@ php:
 
 env:
   - DB=mysql
-  - DB=sqlite
   - DB=pgsql
+  - DB=sqlite
+
+matrix:
+  include:
+    - php: 5.4
+      env:
+        - PHPCS=1
 
 before_script:
-  - sh -c "cd .. ; mkdir lib ; cd lib ; git clone --depth 1 git://github.com/cakephp/cakephp -b master"
-  - sh -c "cd ../lib ; ln -s cakephp/lib/Cake Cake"
-  - sh -c "if [ '$DB' = 'mysql' ]; then mysql -e 'CREATE DATABASE croogo_test;'; fi"
-  - sh -c "if [ '$DB' = 'pgsql' ]; then psql -c 'CREATE DATABASE croogo_test;' -U postgres; fi"
-  - sh -c "if [ '$DB' = 'pgsql' ]; then psql -c 'CREATE SCHEMA croogo_test;' -U postgres -d croogo_test; fi"
-  - cp Config/settings.json.install Config/settings.json
-  - cp Config/croogo.php.install Config/croogo.php
+  - sh -c "if [ '$DB' = 'mysql' ]; then mysql -e 'CREATE DATABASE cakephp_test;'; fi"
+  - sh -c "if [ '$DB' = 'mysql' ]; then mysql -e 'CREATE DATABASE cakephp_test2;'; fi"
+  - sh -c "if [ '$DB' = 'mysql' ]; then mysql -e 'CREATE DATABASE cakephp_test3;'; fi"
+  - sh -c "if [ '$DB' = 'pgsql' ]; then psql -c 'CREATE DATABASE cakephp_test;' -U postgres; fi"
+  - sh -c "if [ '$DB' = 'pgsql' ]; then psql -c 'CREATE SCHEMA test2;' -U postgres -d cakephp_test; fi"
+  - sh -c "if [ '$DB' = 'pgsql' ]; then psql -c 'CREATE SCHEMA test3;' -U postgres -d cakephp_test; fi"
+  - chmod -R 777 ./app/tmp
+  - sudo apt-get install lighttpd
+  - pear channel-discover pear.cakephp.org
+  - pear install --alldeps cakephp/CakePHP_CodeSniffer
+  - phpenv rehash
   - set +H
   - echo "<?php
     class DATABASE_CONFIG {
@@ -31,10 +41,12 @@ before_script:
         'datasource' => 'Database/Postgres',
         'host' => '127.0.0.1',
         'login' => 'postgres',
-        'database' => 'croogo_test',
+        'database' => 'cakephp_test',
         'schema' => array(
           'default' => 'public',
-          'test' => 'croogo_test',
+          'test' => 'public',
+          'test2' => 'test2',
+          'test_database_three' => 'test3'
         )
       ),
       'sqlite' => array(
@@ -42,6 +54,8 @@ before_script:
         'database' => array(
           'default' => ':memory:',
           'test' => ':memory:',
+          'test2' => '/tmp/cakephp_test2.db',
+          'test_database_three' => '/tmp/cakephp_test3.db'
         ),
       )
     );
@@ -50,7 +64,7 @@ before_script:
       'host' => '',
       'login' => '',
       'password' => '',
-      'database' => 'croogo',
+      'database' => 'cakephp_test',
       'prefix' => ''
     );
     public \$test = array(
@@ -58,7 +72,23 @@ before_script:
       'host' => '',
       'login' => '',
       'password' => '',
-      'database' => 'croogo_test',
+      'database' => 'cakephp_test',
+      'prefix' => ''
+    );
+    public \$test2 = array(
+      'persistent' => false,
+      'host' => '',
+      'login' => '',
+      'password' => '',
+      'database' => 'cakephp_test2',
+      'prefix' => ''
+    );
+    public \$test_database_three = array(
+      'persistent' => false,
+      'host' => '',
+      'login' => '',
+      'password' => '',
+      'database' => 'cakephp_test3',
       'prefix' => ''
     );
     public function __construct() {
@@ -66,7 +96,7 @@ before_script:
       if (!empty(\$_SERVER['DB'])) {
         \$db = \$_SERVER['DB'];
       }
-      foreach (array('default', 'test') as \$source) {
+      foreach (array('default', 'test', 'test2', 'test_database_three') as \$source) {
         \$config = array_merge(\$this->{\$source}, \$this->identities[\$db]);
         if (is_array(\$config['database'])) {
           \$config['database'] = \$config['database'][\$source];
@@ -77,10 +107,10 @@ before_script:
         \$this->{\$source} = \$config;
       }
     }
-    }" > Config/database.php
+    }" > app/Config/database.php
 
 script:
-  - ./Console/cake test app AllTests --stderr
+  - sh -c "if [ '$PHPCS' != '1' ]; then ./lib/Cake/Console/cake test core AllTests --stderr; else phpcs -p --extensions=php --standard=CakePHP ./lib/Cake; fi"
 
 notifications:
   email: false
