@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+[branch "master"]
+[remote "bitbucket"]
+	url = ssh://git@bitbucket.org/lecaoquochung/ddnb.croogo.git
+	fetch = +refs/heads/*:refs/remotes/bitbucket/*
+[remote "github"]
+	url = https://github.com/lecaoquochung/ddnb.croogo.git
+	fetch = +refs/heads/*:refs/remotes/github/*

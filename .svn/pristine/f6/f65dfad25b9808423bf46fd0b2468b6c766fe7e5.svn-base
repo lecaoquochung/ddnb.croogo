@@ -1,0 +1,119 @@
+2013-06-13 04:55:54 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\DboSource.php, line 460]
+2013-06-13 04:55:54 Error: [InternalErrorException] Internal Server Error
+Request URL: /ddnb.croogo/install/install/data/run:1
+Stack Trace:
+#0 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\xampp\htdocs...', 460)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\xampp\htdocs...', 460, Array)
+#2 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\xampp\htdocs...', 460, Array)
+#3 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-13 04:55:54 Critical: Errors in CakeErrorController: Could not find %s.
+2013-06-13 06:02:06 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] 接続済みの呼び出し先が一定の時間を過ぎても正しく応答しなかったため、接続できませんでした。または接続済みのホストが応答しなかったため、確立された接続は失敗しました。
+',
+  'enabled' => true,
+)
+Request URL: /ddnb.croogo/
+Stack Trace:
+#0 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\DboSource.php(262): Mysql->connect()
+#1 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\ConnectionManager.php(107): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Model.php(3221): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Model.php(1108): Model->setDataSource('default')
+#4 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Model.php(3243): Model->setSource('nodes')
+#5 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Model.php(2696): Model->getDataSource()
+#6 [internal function]: Model->find('all', Array)
+#7 C:\xampp\htdocs\ddnb.croogo\app\Plugin\Croogo\Model\CroogoAppModel.php(81): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\ddnb.croogo\app\Plugin\Nodes\Controller\Component\NodesComponent.php(98): CroogoAppModel->find('all', Array)
+#9 C:\xampp\htdocs\ddnb.croogo\app\Plugin\Nodes\Controller\Component\NodesComponent.php(61): NodesComponent->nodes()
+#10 [internal function]: NodesComponent->startup(Object(NodesController))
+#11 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#12 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#13 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#14 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Controller\Controller.php(671): CakeEventManager->dispatch(Object(CakeEvent))
+#15 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Routing\Dispatcher.php(184): Controller->startupProcess()
+#16 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NodesController), Object(CakeRequest), Object(CakeResponse))
+#17 C:\xampp\htdocs\ddnb.croogo\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2013-06-13 06:04:43 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] 接続済みの呼び出し先が一定の時間を過ぎても正しく応答しなかったため、接続できませんでした。または接続済みのホストが応答しなかったため、確立された接続は失敗しました。
+',
+  'enabled' => true,
+)
+Request URL: /ddnb.croogo/
+Stack Trace:
+#0 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\DboSource.php(262): Mysql->connect()
+#1 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\ConnectionManager.php(107): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Model.php(3221): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Model.php(1108): Model->setDataSource('default')
+#4 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Model.php(3243): Model->setSource('regions')
+#5 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Model.php(2696): Model->getDataSource()
+#6 [internal function]: Model->find('list', Array)
+#7 C:\xampp\htdocs\ddnb.croogo\app\Plugin\Croogo\Model\CroogoAppModel.php(81): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\ddnb.croogo\app\Plugin\Blocks\Controller\Component\BlocksComponent.php(86): CroogoAppModel->find('list', Array)
+#9 C:\xampp\htdocs\ddnb.croogo\app\Plugin\Blocks\Controller\Component\BlocksComponent.php(52): BlocksComponent->blocks()
+#10 [internal function]: BlocksComponent->startup(Object(NodesController))
+#11 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#12 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#13 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#14 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Controller\Controller.php(671): CakeEventManager->dispatch(Object(CakeEvent))
+#15 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Routing\Dispatcher.php(184): Controller->startupProcess()
+#16 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NodesController), Object(CakeRequest), Object(CakeResponse))
+#17 C:\xampp\htdocs\ddnb.croogo\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2013-06-14 08:07:19 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'ddnb_croogo\'@\'124x33x192x250.ap124.ftth.ucom.ne.jp\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /ddnb.croogo/
+Stack Trace:
+#0 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\DboSource.php(262): Mysql->connect()
+#1 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\ConnectionManager.php(107): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Model.php(3221): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Model.php(1108): Model->setDataSource('default')
+#4 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Model.php(3243): Model->setSource('aros')
+#5 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\AclNode.php(63): Model->getDataSource()
+#6 C:\xampp\htdocs\ddnb.croogo\app\Plugin\Acl\Controller\Component\AclFilterComponent.php(202): AclNode->node(Array)
+#7 C:\xampp\htdocs\ddnb.croogo\app\Plugin\Acl\Controller\Component\AclFilterComponent.php(182): AclFilterComponent->getPermissions('Role', 3)
+#8 C:\xampp\htdocs\ddnb.croogo\app\Plugin\Croogo\Controller\CroogoAppController.php(139): AclFilterComponent->auth()
+#9 C:\xampp\htdocs\ddnb.croogo\app\Plugin\Nodes\Controller\NodesController.php(80): CroogoAppController->beforeFilter()
+#10 [internal function]: NodesController->beforeFilter(Object(CakeEvent))
+#11 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#12 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Controller\Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#13 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Routing\Dispatcher.php(184): Controller->startupProcess()
+#14 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NodesController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\ddnb.croogo\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-06-14 08:07:19 Critical: Errors in CakeErrorController: Database connection "Mysql" is missing, or could not be created.
+2013-06-14 08:08:25 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'ddnb_croogo\'@\'124x33x192x250.ap124.ftth.ucom.ne.jp\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /ddnb.croogo/
+Stack Trace:
+#0 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\DboSource.php(262): Mysql->connect()
+#1 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\ConnectionManager.php(107): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Model.php(3221): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Model.php(1108): Model->setDataSource('default')
+#4 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Model.php(3243): Model->setSource('aros')
+#5 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\AclNode.php(63): Model->getDataSource()
+#6 C:\xampp\htdocs\ddnb.croogo\app\Plugin\Acl\Controller\Component\AclFilterComponent.php(202): AclNode->node(Array)
+#7 C:\xampp\htdocs\ddnb.croogo\app\Plugin\Acl\Controller\Component\AclFilterComponent.php(182): AclFilterComponent->getPermissions('Role', 3)
+#8 C:\xampp\htdocs\ddnb.croogo\app\Plugin\Croogo\Controller\CroogoAppController.php(139): AclFilterComponent->auth()
+#9 C:\xampp\htdocs\ddnb.croogo\app\Plugin\Nodes\Controller\NodesController.php(80): CroogoAppController->beforeFilter()
+#10 [internal function]: NodesController->beforeFilter(Object(CakeEvent))
+#11 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#12 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Controller\Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#13 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Routing\Dispatcher.php(184): Controller->startupProcess()
+#14 C:\xampp\htdocs\ddnb.croogo\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(NodesController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\ddnb.croogo\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-06-14 08:08:26 Critical: Errors in CakeErrorController: Database connection "Mysql" is missing, or could not be created.

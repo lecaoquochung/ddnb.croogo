@@ -1,0 +1,459 @@
+2013-06-13 04:54:13 Debug: Notice (8): Undefined index: cookie in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 467]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 467
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::read() - CORE\Cake\Model\Datasource\CakeSession.php, line 358
+SessionHelper::read() - CORE\Cake\View\Helper\SessionHelper.php, line 45
+LayoutHelper::sessionFlash() - APP\Plugin\Croogo\View\Helper\LayoutHelper.php, line 244
+include - APP\Plugin\Install\View\Layouts\install.ctp, line 36
+View::_evaluate() - CORE\Cake\View\View.php, line 947
+View::_render() - CORE\Cake\View\View.php, line 909
+View::renderLayout() - CORE\Cake\View\View.php, line 535
+View::render() - CORE\Cake\View\View.php, line 479
+Controller::render() - CORE\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:54:13 Debug: Notice (8): Undefined index: timeout in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 473]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 473
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::read() - CORE\Cake\Model\Datasource\CakeSession.php, line 358
+SessionHelper::read() - CORE\Cake\View\Helper\SessionHelper.php, line 45
+LayoutHelper::sessionFlash() - APP\Plugin\Croogo\View\Helper\LayoutHelper.php, line 244
+include - APP\Plugin\Install\View\Layouts\install.ctp, line 36
+View::_evaluate() - CORE\Cake\View\View.php, line 947
+View::_render() - CORE\Cake\View\View.php, line 909
+View::renderLayout() - CORE\Cake\View\View.php, line 535
+View::render() - CORE\Cake\View\View.php, line 479
+Controller::render() - CORE\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:54:13 Debug: Notice (8): Undefined index: timeout in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 506]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 506
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::read() - CORE\Cake\Model\Datasource\CakeSession.php, line 358
+SessionHelper::read() - CORE\Cake\View\Helper\SessionHelper.php, line 45
+LayoutHelper::sessionFlash() - APP\Plugin\Croogo\View\Helper\LayoutHelper.php, line 244
+include - APP\Plugin\Install\View\Layouts\install.ctp, line 36
+View::_evaluate() - CORE\Cake\View\View.php, line 947
+View::_render() - CORE\Cake\View\View.php, line 909
+View::renderLayout() - CORE\Cake\View\View.php, line 535
+View::render() - CORE\Cake\View\View.php, line 479
+Controller::render() - CORE\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:54:17 Debug: Notice (8): Undefined index: cookie in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 467]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 467
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::read() - CORE\Cake\Model\Datasource\CakeSession.php, line 358
+SessionHelper::read() - CORE\Cake\View\Helper\SessionHelper.php, line 45
+LayoutHelper::sessionFlash() - APP\Plugin\Croogo\View\Helper\LayoutHelper.php, line 244
+include - APP\Plugin\Install\View\Layouts\install.ctp, line 36
+View::_evaluate() - CORE\Cake\View\View.php, line 947
+View::_render() - CORE\Cake\View\View.php, line 909
+View::renderLayout() - CORE\Cake\View\View.php, line 535
+View::render() - CORE\Cake\View\View.php, line 479
+Controller::render() - CORE\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:54:17 Debug: Notice (8): Undefined index: timeout in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 473]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 473
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::read() - CORE\Cake\Model\Datasource\CakeSession.php, line 358
+SessionHelper::read() - CORE\Cake\View\Helper\SessionHelper.php, line 45
+LayoutHelper::sessionFlash() - APP\Plugin\Croogo\View\Helper\LayoutHelper.php, line 244
+include - APP\Plugin\Install\View\Layouts\install.ctp, line 36
+View::_evaluate() - CORE\Cake\View\View.php, line 947
+View::_render() - CORE\Cake\View\View.php, line 909
+View::renderLayout() - CORE\Cake\View\View.php, line 535
+View::render() - CORE\Cake\View\View.php, line 479
+Controller::render() - CORE\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:54:17 Debug: Notice (8): Undefined index: timeout in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 506]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 506
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::read() - CORE\Cake\Model\Datasource\CakeSession.php, line 358
+SessionHelper::read() - CORE\Cake\View\Helper\SessionHelper.php, line 45
+LayoutHelper::sessionFlash() - APP\Plugin\Croogo\View\Helper\LayoutHelper.php, line 244
+include - APP\Plugin\Install\View\Layouts\install.ctp, line 36
+View::_evaluate() - CORE\Cake\View\View.php, line 947
+View::_render() - CORE\Cake\View\View.php, line 909
+View::renderLayout() - CORE\Cake\View\View.php, line 535
+View::render() - CORE\Cake\View\View.php, line 479
+Controller::render() - CORE\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:55:21 Debug: Notice (8): Undefined index: cookie in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 467]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 467
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::read() - CORE\Cake\Model\Datasource\CakeSession.php, line 358
+SessionHelper::read() - CORE\Cake\View\Helper\SessionHelper.php, line 45
+LayoutHelper::sessionFlash() - APP\Plugin\Croogo\View\Helper\LayoutHelper.php, line 244
+include - APP\Plugin\Install\View\Layouts\install.ctp, line 36
+View::_evaluate() - CORE\Cake\View\View.php, line 947
+View::_render() - CORE\Cake\View\View.php, line 909
+View::renderLayout() - CORE\Cake\View\View.php, line 535
+View::render() - CORE\Cake\View\View.php, line 479
+Controller::render() - CORE\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:55:21 Debug: Notice (8): Undefined index: timeout in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 473]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 473
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::read() - CORE\Cake\Model\Datasource\CakeSession.php, line 358
+SessionHelper::read() - CORE\Cake\View\Helper\SessionHelper.php, line 45
+LayoutHelper::sessionFlash() - APP\Plugin\Croogo\View\Helper\LayoutHelper.php, line 244
+include - APP\Plugin\Install\View\Layouts\install.ctp, line 36
+View::_evaluate() - CORE\Cake\View\View.php, line 947
+View::_render() - CORE\Cake\View\View.php, line 909
+View::renderLayout() - CORE\Cake\View\View.php, line 535
+View::render() - CORE\Cake\View\View.php, line 479
+Controller::render() - CORE\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:55:21 Debug: Notice (8): Undefined index: timeout in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 506]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 506
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::read() - CORE\Cake\Model\Datasource\CakeSession.php, line 358
+SessionHelper::read() - CORE\Cake\View\Helper\SessionHelper.php, line 45
+LayoutHelper::sessionFlash() - APP\Plugin\Croogo\View\Helper\LayoutHelper.php, line 244
+include - APP\Plugin\Install\View\Layouts\install.ctp, line 36
+View::_evaluate() - CORE\Cake\View\View.php, line 947
+View::_render() - CORE\Cake\View\View.php, line 909
+View::renderLayout() - CORE\Cake\View\View.php, line 535
+View::render() - CORE\Cake\View\View.php, line 479
+Controller::render() - CORE\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:55:54 Debug: Notice (8): Undefined index: cookie in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 467]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 467
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::read() - CORE\Cake\Model\Datasource\CakeSession.php, line 358
+SessionHelper::read() - CORE\Cake\View\Helper\SessionHelper.php, line 45
+LayoutHelper::sessionFlash() - APP\Plugin\Croogo\View\Helper\LayoutHelper.php, line 244
+include - APP\Plugin\Croogo\View\Layouts\error.ctp, line 37
+View::_evaluate() - CORE\Cake\View\View.php, line 947
+View::_render() - CORE\Cake\View\View.php, line 909
+View::renderLayout() - CORE\Cake\View\View.php, line 535
+View::render() - CORE\Cake\View\View.php, line 479
+ExceptionRenderer::_outputMessageSafe() - CORE\Cake\Error\ExceptionRenderer.php, line 304
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 285
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 243
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 176
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 123
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 236
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 184
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 926
+App::shutdown() - CORE\Cake\Core\App.php, line 899
+[main] - [internal], line ??
+
+2013-06-13 04:55:54 Debug: Notice (8): Undefined index: timeout in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 473]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 473
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::read() - CORE\Cake\Model\Datasource\CakeSession.php, line 358
+SessionHelper::read() - CORE\Cake\View\Helper\SessionHelper.php, line 45
+LayoutHelper::sessionFlash() - APP\Plugin\Croogo\View\Helper\LayoutHelper.php, line 244
+include - APP\Plugin\Croogo\View\Layouts\error.ctp, line 37
+View::_evaluate() - CORE\Cake\View\View.php, line 947
+View::_render() - CORE\Cake\View\View.php, line 909
+View::renderLayout() - CORE\Cake\View\View.php, line 535
+View::render() - CORE\Cake\View\View.php, line 479
+ExceptionRenderer::_outputMessageSafe() - CORE\Cake\Error\ExceptionRenderer.php, line 304
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 285
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 243
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 176
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 123
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 236
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 184
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 926
+App::shutdown() - CORE\Cake\Core\App.php, line 899
+[main] - [internal], line ??
+
+2013-06-13 04:55:54 Debug: Notice (8): Undefined index: timeout in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 506]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 506
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::read() - CORE\Cake\Model\Datasource\CakeSession.php, line 358
+SessionHelper::read() - CORE\Cake\View\Helper\SessionHelper.php, line 45
+LayoutHelper::sessionFlash() - APP\Plugin\Croogo\View\Helper\LayoutHelper.php, line 244
+include - APP\Plugin\Croogo\View\Layouts\error.ctp, line 37
+View::_evaluate() - CORE\Cake\View\View.php, line 947
+View::_render() - CORE\Cake\View\View.php, line 909
+View::renderLayout() - CORE\Cake\View\View.php, line 535
+View::render() - CORE\Cake\View\View.php, line 479
+ExceptionRenderer::_outputMessageSafe() - CORE\Cake\Error\ExceptionRenderer.php, line 304
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 285
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 243
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 176
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 123
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 236
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 184
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 926
+App::shutdown() - CORE\Cake\Core\App.php, line 899
+[main] - [internal], line ??
+
+2013-06-13 04:56:16 Debug: Notice (8): Undefined index: cookie in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 467]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 467
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::read() - CORE\Cake\Model\Datasource\CakeSession.php, line 358
+SessionHelper::read() - CORE\Cake\View\Helper\SessionHelper.php, line 45
+LayoutHelper::sessionFlash() - APP\Plugin\Croogo\View\Helper\LayoutHelper.php, line 244
+include - APP\Plugin\Install\View\Layouts\install.ctp, line 36
+View::_evaluate() - CORE\Cake\View\View.php, line 947
+View::_render() - CORE\Cake\View\View.php, line 909
+View::renderLayout() - CORE\Cake\View\View.php, line 535
+View::render() - CORE\Cake\View\View.php, line 479
+Controller::render() - CORE\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:56:16 Debug: Notice (8): Undefined index: timeout in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 473]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 473
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::read() - CORE\Cake\Model\Datasource\CakeSession.php, line 358
+SessionHelper::read() - CORE\Cake\View\Helper\SessionHelper.php, line 45
+LayoutHelper::sessionFlash() - APP\Plugin\Croogo\View\Helper\LayoutHelper.php, line 244
+include - APP\Plugin\Install\View\Layouts\install.ctp, line 36
+View::_evaluate() - CORE\Cake\View\View.php, line 947
+View::_render() - CORE\Cake\View\View.php, line 909
+View::renderLayout() - CORE\Cake\View\View.php, line 535
+View::render() - CORE\Cake\View\View.php, line 479
+Controller::render() - CORE\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:56:16 Debug: Notice (8): Undefined index: timeout in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 506]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 506
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::read() - CORE\Cake\Model\Datasource\CakeSession.php, line 358
+SessionHelper::read() - CORE\Cake\View\Helper\SessionHelper.php, line 45
+LayoutHelper::sessionFlash() - APP\Plugin\Croogo\View\Helper\LayoutHelper.php, line 244
+include - APP\Plugin\Install\View\Layouts\install.ctp, line 36
+View::_evaluate() - CORE\Cake\View\View.php, line 947
+View::_render() - CORE\Cake\View\View.php, line 909
+View::renderLayout() - CORE\Cake\View\View.php, line 535
+View::render() - CORE\Cake\View\View.php, line 479
+Controller::render() - CORE\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:56:19 Debug: Notice (8): Undefined index: cookie in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 467]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 467
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::read() - CORE\Cake\Model\Datasource\CakeSession.php, line 358
+SessionHelper::read() - CORE\Cake\View\Helper\SessionHelper.php, line 45
+LayoutHelper::sessionFlash() - APP\Plugin\Croogo\View\Helper\LayoutHelper.php, line 244
+include - APP\Plugin\Install\View\Layouts\install.ctp, line 36
+View::_evaluate() - CORE\Cake\View\View.php, line 947
+View::_render() - CORE\Cake\View\View.php, line 909
+View::renderLayout() - CORE\Cake\View\View.php, line 535
+View::render() - CORE\Cake\View\View.php, line 479
+Controller::render() - CORE\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:56:19 Debug: Notice (8): Undefined index: timeout in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 473]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 473
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::read() - CORE\Cake\Model\Datasource\CakeSession.php, line 358
+SessionHelper::read() - CORE\Cake\View\Helper\SessionHelper.php, line 45
+LayoutHelper::sessionFlash() - APP\Plugin\Croogo\View\Helper\LayoutHelper.php, line 244
+include - APP\Plugin\Install\View\Layouts\install.ctp, line 36
+View::_evaluate() - CORE\Cake\View\View.php, line 947
+View::_render() - CORE\Cake\View\View.php, line 909
+View::renderLayout() - CORE\Cake\View\View.php, line 535
+View::render() - CORE\Cake\View\View.php, line 479
+Controller::render() - CORE\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:56:19 Debug: Notice (8): Undefined index: timeout in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 506]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 506
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::read() - CORE\Cake\Model\Datasource\CakeSession.php, line 358
+SessionHelper::read() - CORE\Cake\View\Helper\SessionHelper.php, line 45
+LayoutHelper::sessionFlash() - APP\Plugin\Croogo\View\Helper\LayoutHelper.php, line 244
+include - APP\Plugin\Install\View\Layouts\install.ctp, line 36
+View::_evaluate() - CORE\Cake\View\View.php, line 947
+View::_render() - CORE\Cake\View\View.php, line 909
+View::renderLayout() - CORE\Cake\View\View.php, line 535
+View::render() - CORE\Cake\View\View.php, line 479
+Controller::render() - CORE\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:56:25 Debug: Notice (8): Undefined index: cookie in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 467]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 467
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::write() - CORE\Cake\Model\Datasource\CakeSession.php, line 396
+SessionComponent::setFlash() - CORE\Cake\Controller\Component\SessionComponent.php, line 128
+InstallController::database() - APP\Plugin\Install\Controller\InstallController.php, line 124
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 486
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:56:25 Debug: Notice (8): Undefined index: timeout in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 473]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 473
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::write() - CORE\Cake\Model\Datasource\CakeSession.php, line 396
+SessionComponent::setFlash() - CORE\Cake\Controller\Component\SessionComponent.php, line 128
+InstallController::database() - APP\Plugin\Install\Controller\InstallController.php, line 124
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 486
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:56:25 Debug: Notice (8): Undefined index: timeout in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 506]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 506
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::write() - CORE\Cake\Model\Datasource\CakeSession.php, line 396
+SessionComponent::setFlash() - CORE\Cake\Controller\Component\SessionComponent.php, line 128
+InstallController::database() - APP\Plugin\Install\Controller\InstallController.php, line 124
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 486
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:56:42 Debug: Notice (8): Undefined index: cookie in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 467]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 467
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::write() - CORE\Cake\Model\Datasource\CakeSession.php, line 396
+SessionComponent::setFlash() - CORE\Cake\Controller\Component\SessionComponent.php, line 128
+InstallController::database() - APP\Plugin\Install\Controller\InstallController.php, line 124
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 486
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:56:42 Debug: Notice (8): Undefined index: timeout in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 473]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 473
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::write() - CORE\Cake\Model\Datasource\CakeSession.php, line 396
+SessionComponent::setFlash() - CORE\Cake\Controller\Component\SessionComponent.php, line 128
+InstallController::database() - APP\Plugin\Install\Controller\InstallController.php, line 124
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 486
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:56:42 Debug: Notice (8): Undefined index: timeout in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 506]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 506
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::write() - CORE\Cake\Model\Datasource\CakeSession.php, line 396
+SessionComponent::setFlash() - CORE\Cake\Controller\Component\SessionComponent.php, line 128
+InstallController::database() - APP\Plugin\Install\Controller\InstallController.php, line 124
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 486
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:56:58 Debug: Notice (8): Undefined index: cookie in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 467]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 467
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::read() - CORE\Cake\Model\Datasource\CakeSession.php, line 358
+SessionHelper::read() - CORE\Cake\View\Helper\SessionHelper.php, line 45
+LayoutHelper::sessionFlash() - APP\Plugin\Croogo\View\Helper\LayoutHelper.php, line 244
+include - APP\Plugin\Install\View\Layouts\install.ctp, line 36
+View::_evaluate() - CORE\Cake\View\View.php, line 947
+View::_render() - CORE\Cake\View\View.php, line 909
+View::renderLayout() - CORE\Cake\View\View.php, line 535
+View::render() - CORE\Cake\View\View.php, line 479
+Controller::render() - CORE\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:56:58 Debug: Notice (8): Undefined index: timeout in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 473]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 473
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::read() - CORE\Cake\Model\Datasource\CakeSession.php, line 358
+SessionHelper::read() - CORE\Cake\View\Helper\SessionHelper.php, line 45
+LayoutHelper::sessionFlash() - APP\Plugin\Croogo\View\Helper\LayoutHelper.php, line 244
+include - APP\Plugin\Install\View\Layouts\install.ctp, line 36
+View::_evaluate() - CORE\Cake\View\View.php, line 947
+View::_render() - CORE\Cake\View\View.php, line 909
+View::renderLayout() - CORE\Cake\View\View.php, line 535
+View::render() - CORE\Cake\View\View.php, line 479
+Controller::render() - CORE\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
+2013-06-13 04:56:58 Debug: Notice (8): Undefined index: timeout in [C:\xampp\htdocs\ddnb.croogo\lib\Cake\Model\Datasource\CakeSession.php, line 506]
+Trace:
+CakeSession::_configureSession() - CORE\Cake\Model\Datasource\CakeSession.php, line 506
+CakeSession::start() - CORE\Cake\Model\Datasource\CakeSession.php, line 189
+CakeSession::read() - CORE\Cake\Model\Datasource\CakeSession.php, line 358
+SessionHelper::read() - CORE\Cake\View\Helper\SessionHelper.php, line 45
+LayoutHelper::sessionFlash() - APP\Plugin\Croogo\View\Helper\LayoutHelper.php, line 244
+include - APP\Plugin\Install\View\Layouts\install.ctp, line 36
+View::_evaluate() - CORE\Cake\View\View.php, line 947
+View::_render() - CORE\Cake\View\View.php, line 909
+View::renderLayout() - CORE\Cake\View\View.php, line 535
+View::render() - CORE\Cake\View\View.php, line 479
+Controller::render() - CORE\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 96
+
